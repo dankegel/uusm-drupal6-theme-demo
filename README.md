@@ -28,5 +28,10 @@ and turn on AllowOverride as usual to allow clean URLs.
 6) Open the site in a browser (e.g. http://localhost );
 you should see the normal Drupal 6 installation page, but with a
 uusm-theme-demo profile.  Choose that!
+(You might need to visit http://localhost/install.php explicitly if you
+put database info into settings.php already.)
 
-7) Notice all the 'Undefined index' warnings.  What's up with that, eh?
+7) Using the usual admin web interface, enable the UUSM theme and make it the
+default.  (Hmm, why didn't the profile do that?)
+
+8) Go to the site's home page.  Notice all the 'Undefined index' warnings.  What's up with that, eh?
